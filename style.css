@@ -1,0 +1,109 @@
+/* Base Style */
+html,
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  height: 100vh;
+}
+
+/* Doomsday Button */
+button {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+  background-image: radial-gradient(ellipse at center, #ff0505 10%, #960910 85%);
+  border: 0;
+  border-radius: 50%;
+
+  color: #fff;
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* Keyframes */
+/* Keyframes */
+@keyframes alert {
+  0%,
+  50%,
+  100% {
+    box-shadow: 0px 0px 10px 3px rgba(255, 0, 0, 0.4)
+  }
+
+
+  25%,
+  75% {
+    box-shadow: 0px 0px 10px 8px rgba(255, 0, 0, 0.8)
+  }
+}
+
+@keyframes warning {
+  0%,
+  100% {
+    background-image: radial-gradient(ellipse at center, #ff0505 10%, #960910 85%);
+  }
+
+  10%,
+  90% {
+    background-image: radial-gradient(ellipse at center, #ff0505 20%, #960910 85%);
+  }
+
+  20%,
+  80% {
+    background-image: radial-gradient(ellipse at center, #ff0505 30%, #960910 85%);
+  }
+
+  30%,
+  70% {
+    background-image: radial-gradient(ellipse at center, #ff0505 40%, #960910 85%);
+  }
+
+  40%,
+  60% {
+    background-image: radial-gradient(ellipse at center, #ff0505 50%, #960910 85%);
+  }
+
+  50% {
+    background-image: radial-gradient(ellipse at center, #ff0505 60%, #960910 85%);
+  }
+}
+
+@keyframes countdown {
+  0%, 18% {
+    content: "5";
+    opacity: 1;
+  }
+
+  19%, 38% {
+    content: "4";
+    opacity: 1;
+  }
+
+  39%, 58% {
+    content: "3";
+    opacity: 1;
+  } 
+
+  59%, 78% {
+    content: "2";
+    opacity: 1;
+  }
+
+  79%, 98% {
+    content: "1";
+    opacity: 1;
+  }
+
+  99% {
+    content: "0";
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

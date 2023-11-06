@@ -1,2 +1,4 @@
-# doomsday-button
-This repository contains the starter files for the Doomsday Button project
+# Doomsday Button
+
+## Objective
+Practice using pseudo-classes, pseudo-elements, `transform`, `transition`, and `animation` by creating a doomsday button.
